@@ -1,0 +1,68 @@
+name: jinritoutiao
+description: 高仿今日头条flutter版.
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+version: 1.0.0
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bottom_tab_bar:
+    git: https://github.com/LiuC520/flutter_bottom_tab_bar.git
+  super_tooltip: # tip自己画的
+    git: https://github.com/escamoteur/super_tooltip.git
+  common_utils:
+  flustars:
+  gesture_password:
+  flutter_custom_bottom_tab_bar:
+    git: https://github.com/LiuC520/flutter_custom_bottom_tab_bar.git
+
+  cupertino_icons:
+
+  dragable_flutter_list:
+
+  cool_ui:
+
+  flutter_redux:
+  flutter_redux_dev_tools:
+  path_provider:
+
+  todos_repository_flutter:
+    path: ./todos_repository_flutter
+
+
+  intl:
+
+  base_architecture:
+    path: ./base_architecture
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.3.0
+  intl_translation:
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/imgs/home_divider.png
+    - assets/imgs/tab_home.png
+    - assets/imgs/tab_home_selected.png
+    - assets/imgs/tab_xigua.png
+    - assets/imgs/tab_xigua_selected.png
+    - assets/imgs/tab_find.png
+    - assets/imgs/tab_find_selected.png
+    - assets/imgs/tab_video.png
+    - assets/imgs/tab_video_selected.png
+    - assets/imgs/tab_me.png
+    - assets/imgs/tab_me_selected.png
